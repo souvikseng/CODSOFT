@@ -3,8 +3,8 @@
 from sklearn import datasets
 iris = datasets.load_iris()
 
-X= iris.data # since i need the entire data so no parenthesis
-Y=iris.target   #Same here
+X= iris.data 
+Y=iris.target   
 
 #Split the X and Y dataset into training and testing set
 from sklearn.model_selection import train_test_split
